@@ -11,15 +11,14 @@
   "debug": {
     "jlink_device": "STM32H750VB",
     "openocd_target": "stm32h7x",
-    "svd_path": "STM32H750.svd"
+    "svd_path": "STM32H750x.svd"
   },
   "frameworks": [
     "arduino",
     "cmsis",
-    "stm32cube",
-    "libopencm3"
+    "stm32cube"
   ],
-  "name": "STM32H750VBT6 (1024k RAM. 128k Flash)",
+  "name": "STM32H750VB (1024k RAM. 128k Flash)",
   "upload": {
     "maximum_ram_size": 1048576,
     "maximum_size": 131072,
